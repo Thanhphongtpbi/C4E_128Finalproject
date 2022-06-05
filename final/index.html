@@ -1,12 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- <link rel="stylesheet" href="demo.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js" integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="phongcss.css">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&family=Mr+Dafoe&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&family=Marck+Script&family=Mr+Dafoe&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&family=Marck+Script&family=Mr+Dafoe&family=Oleo+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo">
+            <a href="#">
+                <div class="w3-xxlarge">
+                </div>
+                <i class="fa-solid fa-cannabis fa-3x"></i>
+            </a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Tìm kiếm">
+        </div>
+        <div class="logInSignUp">
+            <button>
+                <p>Log In</p>
+            </button>
+            <button>
+                <p>Sign Up</p>
+            </button>
+        </div>
+        </div>
+    </header>
+    <div class="backgroundImg" id="back">
+        <div class="slide">
+            <div class="anh" id="anh">
+                <p class="quote">
+                    “Books are a uniquely portable magic.”
+                </p>
+                <p class="author">
+                    ―  Stephen King
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="webpage">
+        <!-- Khoi chua chu de sach -->
+        <div class="left">
+            <div class="container-left">
+                <div><p class="container-left" Id="container-left"> SÁCH THEO CHỦ ĐỀ </p></div>
+                <div class="psychonogy">
+                    <input type="button" class="btn" value="Văn Học Việt Nam">
+                </div>
+                <div class="psychonogy">
+                    <input type="button" class="btn" value="Văn Học Nước Ngoài ">
+                </div>
+                <div class="psychonogy">
+                    <input type="button" class="btn" value="Kinh Tế Chính Trị">
+                </div>
+                <div class="psychonogy">
+                    <input type="button" class="btn"value="Lịch Sử - Địa Lý">
+                </div>
+                <div class="psychonogy">
+                    <input type="button" class="btn"value="Thời Sự Văn Hóa">
+                </div>
+                <div class="psychonogy">
+                    <input type="button" class="btn"value="Manga-Anime">
+                </div>  
+                <div class="psychonogy">
+                    <input type="button" class="btn"value="Kĩ Năng sống">
+                </div>      
+            </div>
+        </div>
+        <div class="middle">    
+            <div class="containerMiddle" id="middle">
+
+                <!-- Khối 1 -->
+               <div class="topmidle">
+                   <div class="linefoot" ></div>
+                   <div class="tilte"><p> Best Seller </p></div>
+                   <div class="linefoot" ></div>
+               </div>
+                <div id="bestseller" class="book" >
+                    <!-- Chuong  trinh for in ra o day -->
+
+                </div>
+
+                <!-- Khối 2 -->
+                <div class="topmidle">
+                    <div class="linefoot" ></div>
+                    <div class="tilte"><p>  Sách Được Yêu Thích </p></div>
+                    <div class="linefoot" ></div>
+                </div>
+                <div class="book" id="like">
+                  <!-- Chuwong  trinh for in ra o day -->
+                    
+                </div>
+                <!-- Khối 3 -->
+                <div class="topmidle">
+                    <div class="linefoot" ></div>
+                    <div class="tilte"><p>   Sách Mới  </p></div>
+                    <div class="linefoot" ></div>
+                </div>
+                <div class="book" id="new">
+                 
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="containerRight">
+                <div class="top">
+                    <!-- <h2>Top tuần</h2> -->
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="footer">
+        <h2>Thông tin liên hệ</h2>
+        <div class="contact">
+            <div class="facebook">
+                <a style="color: white;font-size: 25px;" href="#" target="_blank">
+                    <i class="fa-brands fa-facebook-square"></i>
+                    Facebook
+                   <a href="">
+                 
+                   </a>
+                </a>
+            </div>
+            <div class="phone">
+                <a class="link" style="color: white;font-size: 25px;" href="#" target="_blank">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <p>
+                        Tổng Đài Góp Ý: 
+                    </p>
+                   <p>0191252996</p>
+                </a>
+            </div>
+
+            <div class="subscribe">
+                <p style="color: white; font-size: 20px;">
+                    Để lại email để nhận thông báo
+                </p>
+                <input type="text" placeholder="Email">
+                <button>Xác nhận</button>
+            </div>
+        </div>
+        <!-- <div class="container">
+            <div class="contact">
+                <a href="Sach.html?id=1"><p>kich thu vao day xem</p></a>
+            </div>
+        </div> -->
+    </div>
+    <script src = "./datasach.js"></script>
 </body>
-</html>
