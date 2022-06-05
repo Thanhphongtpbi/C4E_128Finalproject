@@ -1,0 +1,90 @@
+.anha img{
+    max-width: 250px;
+    max-height: 350px;
+}
+.anha{
+    height: 350px;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+.topbook{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: stretch;
+}
+.infor h2{
+    font-family: 'Marck Script', cursi;
+    font-size: 30px;
+    color: rgb(2, 34, 13);
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.list{
+    display: flex;
+
+}
+li{
+   box-sizing: border-box;
+   border-style: none none solid none;
+   height: 50px;
+   margin-top: 25px;
+   list-style: none;
+   border-bottom-width: 1px;
+   font-size: larger;
+}
+.in{
+    width: 100%;
+    text-align: center;
+}
+.infor{
+    margin-top: 50px;
+    width: 50%;
+    text-align: center;
+}
+.intro{
+    height: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    border-style: none none solid none;
+    border-bottom-width: 1px;
+    padding: 50px;
+}
+.tilteintro{
+    font-size: 30px;
+    font-family: 'Marck Script', cursi;
+    text-align: center;
+    color: rgb(2, 68, 22);
+    margin-bottom: 40px;
+}
+.contentintro{
+    font-size: larger;
+}
+.comment{
+    height: 40px;
+    padding-top: 10px;
+    width: 15%;
+    background-color: rgb(2, 110, 38);
+    font-size: medium;
+    font-weight: 100;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.commenta{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.in{
+    height: 50px;
+    width: 90%;
+    text-align: left;
+    margin-bottom: 20px;
+}
