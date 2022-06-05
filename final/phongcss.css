@@ -280,6 +280,7 @@ box-shadow: 4px;
 .footer h2{
     color: white;
     padding: 30px;
+    font-size: 35px;
 }
 .link{
     display: flex;
